@@ -249,11 +249,11 @@ var main = (function () {
                 if (cmdComponents.length === 1) {
                     cmdComponents[1] = "";
                 }
-                if (configs.getInstance().welcome_file_name.startsWith(cmdComponents[1].toLowerCase())) {
-                    possibilities.push(cmds.CAT.value + " " + configs.getInstance().welcome_file_name);
-                }
+
+                //possibilities.push(cmds.CAT.value + " " + configs.getInstance().welcome_file_name);
+                
                 for (var file in files.getInstance()) {
-                    if (file.startsWith(cmdComponents[1].toLowerCase())) {
+                    if (file.startsWith(cmdComponents[1])) {
                         possibilities.push(cmds.CAT.value + " " + file);
                     }
                 }
