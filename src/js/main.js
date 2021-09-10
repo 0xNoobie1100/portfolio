@@ -18,7 +18,7 @@ var configs = (function () {
         date_help: "Print the system date and time.",
         help_help: "Print this menu.",
         clear_help: "Clear the terminal screen.",
-        welcome: "Welcome to the Project Terminal\nPress TAB or Type help for available commands\n",
+        welcome: "Welcome to the Project Terminal\nPress TAB or Type help for available commands\nTAB autocomplete the commands too\n",
         invalid_command_message: "command not found.",
         usage: "Usage",
         file: "file",
